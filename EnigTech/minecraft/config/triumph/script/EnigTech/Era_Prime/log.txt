@@ -1,0 +1,8 @@
+setIcon(<minecraft:log>)
+setTitle("\u539f\u6728")
+setDescription("\u6211\u7528\u53cc\u624b\uff0c\u6210\u5c31\u4f60\u7684\u68a6\u60f3\u3002")
+addParent("EnigTech:Era_Prime/root")
+setPos(-493,-7)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock(<ore:logWood>)

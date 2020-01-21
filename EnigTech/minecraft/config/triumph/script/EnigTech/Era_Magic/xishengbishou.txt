@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:sacrificial_dagger>)
+setTitle("\u732e\u796d\uff01\u732e\u796d\uff01\u732e\u796d\uff01")
+setDescription("\u83b7\u5f97\u727a\u7272\u5315\u9996")
+addParent("EnigTech:Era_Magic/xiezhijitan")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:sacrificial_dagger>)
+setPos(-567,93)

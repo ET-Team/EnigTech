@@ -1,0 +1,24 @@
+{
+    "machine": "particle_reformer",
+    "registryName": "particle_reformer_dust_crystal",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "embers:ember_cluster",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "environmentaltech:aethium_crystal",
+            "amount": 1
+        }
+    ]
+}

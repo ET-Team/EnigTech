@@ -1,0 +1,15 @@
+setIcon(<gamestagebooks:two>)
+setTitle("\u8015\u79cd\u77e5\u8bc6")
+setDescription("\u968f\u7740\u4f60\u9010\u6e10\u63a2\u7d22\u5468\u56f4\uff0c\u4f60\u53d1\u73b0\u8fd9\u4e2a\u4e16\u754c\u4e0e\u5730\u7403\u5927\u4f53\u76f8\u540c\uff0c\u4f60\u51b3\u5b9a\u5efa\u7acb\u6700\u57fa\u672c\u7684\u98df\u7269\u6765\u6e90\uff1a\u4f5c\u7269 \u5236\u4f5c\u8015\u79cd\u77e5\u8bc6\u6765\u89e3\u9501\u7b2c\u4e8c\u9636\u6bb5")
+addParent("EnigTech:Era_Prime/seed")
+addParent("EnigTech:Era_Prime/gufen")
+addParent("EnigTech:Era_Prime/cobblestone")
+addParent("EnigTech:Era_Prime/paper")
+setPos(-218,-11)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:two>)
+
+drawDirectLines(true)
+alwaysVisible()
+setFrameType("GOAL")

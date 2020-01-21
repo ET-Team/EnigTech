@@ -1,0 +1,81 @@
+{
+  "name": "compactmachines3:mek_boiler_block",
+
+  "disabled": false,
+  
+  "target-block": "mekanism:basicblock2",
+  "target-count": 32,
+  "target-meta": 7,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "mekanism:enrichedalloy",
+
+  
+  "input-types": {
+    "a": {
+      "id": "thermalfoundation:storage",
+      "meta": 8
+    },
+    "b": {
+      "id": "botania:storage",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+
+}
+

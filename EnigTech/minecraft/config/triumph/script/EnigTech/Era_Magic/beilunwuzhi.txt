@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:causality_collapser>)
+setTitle("\u6096\u8bba")
+setDescription("\u83b7\u5f97\u6096\u8bba\u7269\u8d28")
+addParent("EnigTech:Era_Magic/fuwenjuzhen")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:causality_collapser>)
+setPos(-517,8)

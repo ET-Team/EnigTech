@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:upgrade_creative:1>)
+setTitle("\u6c38\u52a8\u673a")
+setDescription("\u83b7\u5f97\u521b\u9020\u53d6\u51fa\u5347\u7ea7")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:upgrade_creative:1>)
+addParent("EnigTech:Era4/chuangzaozhuahuataojian")
+setPos(-543,29)

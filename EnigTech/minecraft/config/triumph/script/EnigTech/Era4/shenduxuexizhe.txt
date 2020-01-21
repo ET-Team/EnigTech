@@ -1,0 +1,8 @@
+setIcon(<deepmoblearning:deep_learner>)
+setTitle("\u5b66\u763e\u5c11\u5e74")
+setDescription("\u83b7\u5f97\u6df1\u5ea6\u5b66\u4e60\u8005")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:deep_learner>)
+addParent("EnigTech:Era4/yuanzihejin")
+setPos(-765,-75)

@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:monster_soul>)
+setTitle("\u6076\u9b54\u7684\u4f4e\u8bed")
+setDescription("\u83b7\u5f97\u6076\u9b54\u610f\u5fd7")
+addParent("EnigTech:Era_Magic/yuanshitouwang")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:monster_soul>)
+setPos(-555,8)

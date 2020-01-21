@@ -1,0 +1,99 @@
+{
+  "name": "compactmachines3:ae2_controller",
+
+  "disabled": false,
+
+  
+  
+  "target-block": "appliedenergistics2:controller",
+  "target-count": 4,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  
+  "catalyst": "thaumcraft:stabilizer",
+  "catalyst-meta": 0,
+
+  
+  
+  "input-types": {
+    "a": {
+      "id": "appliedenergistics2:smooth_sky_stone_block",
+      "meta": 0
+    },
+    "b": {
+      "id": "mekanism:basicblock",
+      "meta": 8
+    },
+    "c": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 7
+    },
+    "d": {
+      "id": "appliedenergistics2:fluix_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+
+
+
+}
+

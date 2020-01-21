@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u8fd9\u662f\u7eb8\uff1f")
+setDescription("\u7528\u7518\u8517\u7814\u78e8\u51fa\u7684\u7c97\u7cd9\u7eb8\uff0c\u4e0d\u786e\u5b9a\u4f1a\u4e0d\u4f1a\u4f7f\u4f60\u7684\u83ca\u82b1\u4e00\u7d27\u3002")
+addParent("EnigTech:Era_Prime/mortar")
+addParent("EnigTech:Era_Prime/sugar_cane")
+setPos(-265,47)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:paper>)
+
+drawDirectLines(true)
+alwaysVisible()

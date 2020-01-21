@@ -1,0 +1,8 @@
+setIcon(<minecraft:string>)
+setTitle("\u7ebf")
+setDescription("\u53ef\u4ee5\u5c06\u4f60\u81ea\u5df1\u7ed1\u8d77\u6765\u4e86\u3002")
+addParent("EnigTech:Era_Prime/grassFibre")
+setPos(-404,-70)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:string>)

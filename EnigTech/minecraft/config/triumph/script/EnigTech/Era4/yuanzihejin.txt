@@ -1,0 +1,8 @@
+setIcon(<mekanism:atomicalloy>)
+setTitle("\u539f\u5b50\u5408\u91d1")
+setDescription("\u83b7\u5f97\u539f\u5b50\u5408\u91d1")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:atomicalloy>)
+addParent("EnigTech:Era4/yejinguanzhuji")
+setPos(-765,-112)

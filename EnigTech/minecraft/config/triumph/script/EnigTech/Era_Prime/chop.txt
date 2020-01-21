@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:stone_axe>)
+
+//Set title String
+setTitle("\u5288\uff01")
+
+//Set description String
+setDescription("\u62ff\u7740\u65a7\u5b50\u5728\u7827\u677f\u4e0a\u72e0\u72e0\u7684\u5288\u4e0b\u53bb\uff01")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("EnigTech:Era_Prime/chopping_block")
+
+//Set the position
+setPos(-439,47)
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:left_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be left clicked by the player.
+criteria.setBlock(<survivalist:chopping_block>)
+
+drawDirectLines(true)
+alwaysVisible()

@@ -1,0 +1,8 @@
+setIcon(<environmentaltech:lightning_cont_1>)
+setTitle("\u5bcc\u5170\u514b\u6797")
+setDescription("\u83b7\u5f97\u907f\u96f7\u9488\u63a7\u5236\u5668")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:lightning_cont_1>)
+addParent("EnigTech:Era4/root")
+setPos(-840,29)

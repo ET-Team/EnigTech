@@ -1,0 +1,24 @@
+{
+    "machine": "particle_reformer",
+    "registryName": "particle_reformer_steel",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 800
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@160",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 64
+        }
+    ]
+}

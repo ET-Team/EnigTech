@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u7b26\u6587\u796d\u575b\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u5728\u901a\u8fc7\u4e0d\u65ad\u7684\u63a2\u7d22\u4e2d\uff0c\u4f60\u5728\u690d\u7269\u7684\u6307\u5f15\u4e0b\u5236\u4f5c\u51fa\u4e86\u8fd9\u4e2a\u53ef\u4ee5\u8ddf\u7b26\u6587\u529b\u91cf\u6c9f\u901a\u7684\u796d\u575b\u3002\u4e0d\u77e5\u5b83\u662f\u5426\u80fd\u591f\u7ed9\u4f60\u5e26\u6765\u6ee1\u8db3\u5de5\u5382\u5316\u9700\u6c42\u7684\u6750\u6599\u5462\uff1f")
+setPos(-424,-227)
+
+addParent("EnigTech:Era_Farm/fuweijitan")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Farm/fuweijitan")
+
+hideLines()
+setHidden(true)

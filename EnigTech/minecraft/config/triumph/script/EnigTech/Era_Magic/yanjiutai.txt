@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:research_table>)
+setTitle("\u4e09\u597d\u5b66\u751f")
+setDescription("\u5c06\u7b14\u4e0e\u58a8\u653e\u5230\u4e66\u684c\u4e0a")
+addParent("EnigTech:Era_Magic/modaoshouce")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:research_table>)
+setPos(-631,-48)

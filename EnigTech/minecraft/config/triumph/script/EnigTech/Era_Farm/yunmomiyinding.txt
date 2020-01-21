@@ -1,0 +1,8 @@
+setIcon(<thermalfoundation:material:136>)
+setTitle("\u8fd9\u53ef\u4e0d\u662f\u96f7\u795e\u7684\u94f6\u5b50\uff01")
+setDescription("\u5236\u4f5c\u8574\u9b54\u79d8\u94f6\u952d")
+addParent("EnigTech:Era_Farm/huijinshali")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:material:136>)
+setPos(-355,-21)

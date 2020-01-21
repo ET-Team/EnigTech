@@ -1,0 +1,8 @@
+setIcon(<embers:ingot_dawnstone>)
+setTitle("\u611f\u53d7\u9ece\u660e")
+setDescription("\u5236\u4f5c\u9ece\u660e\u77f3\u952d.")
+addParent("EnigTech:Era_Farm/hunhelixinji")
+setPos(-205,-44)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:ingot_dawnstone>)

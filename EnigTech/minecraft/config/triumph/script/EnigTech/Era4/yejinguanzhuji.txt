@@ -1,0 +1,8 @@
+setIcon(<mekanism:machineblock:8>)
+setTitle("\u6ce8\u9b54\uff08\u7269\u7406\uff09")
+setDescription("\u83b7\u5f97\u51b6\u91d1\u704c\u6ce8\u673a")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock:8>)
+addParent("EnigTech:Era4/root")
+setPos(-813,-75)

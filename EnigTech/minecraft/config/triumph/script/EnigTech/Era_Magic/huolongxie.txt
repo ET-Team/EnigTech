@@ -1,0 +1,8 @@
+setIcon(<iceandfire:fire_dragon_blood>)
+setTitle("\u60f3\u77e5\u9053\u9ed1\u6846\u773c\u955c\u7684\u79d8\u5bc6\u5417\uff1f")
+setDescription("\u62ff\u7740\u74f6\u5b50shift\u53f3\u952e\u706b\u9f99\u7684\u5c38\u4f53\uff0c\u6765\u83b7\u5f97\u706b\u9f99\u8840")
+addParent("EnigTech:Era_Magic/root")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<iceandfire:fire_dragon_blood>)
+setPos(-731,52)

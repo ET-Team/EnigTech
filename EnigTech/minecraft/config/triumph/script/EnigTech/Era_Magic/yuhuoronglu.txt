@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:soul_forge>)
+setTitle("\u662f\u4f60\u5417\uff1f\u5730\u72f1\u706b\uff01")
+setDescription("\u83b7\u5f97\u72f1\u706b\u7194\u7089")
+addParent("EnigTech:Era_Magic/shenmiding")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_forge>)
+setPos(-567,-85)

@@ -1,0 +1,11 @@
+setIcon(<survivalist:spade>)
+setTitle("\u71e7\u77f3\u94f2")
+setDescription("\u5343\u4e07\u4e0d\u8981\u628a\u5b83\u5f53\u4f5c\u5de5\u5175\u94f2\u6765\u6325\u821e\uff01")
+addParent("EnigTech:Era_Prime/flint")
+setPos(-363,10)
+
+criteria = addCriteria("craftedFlintShovel", "triumph:player_crafted_item")
+criteria.setItem(<survivalist:spade>)
+
+drawDirectLines(true)
+alwaysVisible()

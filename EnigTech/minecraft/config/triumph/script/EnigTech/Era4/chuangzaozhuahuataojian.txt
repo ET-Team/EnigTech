@@ -1,0 +1,8 @@
+setIcon(<thermalfoundation:upgrade:256>)
+setTitle("\u521b\u9020\u8f6c\u6362\u5957\u4ef6")
+setDescription("\u83b7\u5f97\u521b\u9020\u8f6c\u6362\u5957\u4ef6")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade:256>)
+addParent("EnigTech:Era4/wujinkuai")
+setPos(-543,-43)

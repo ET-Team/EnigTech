@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u5706\u77f3\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u201c\u8c46\u8150\u4e00\u6837\u7684\u77f3\u5934\uff1f\u201d\uff0c\u4f60\u50cf\u7164\u77ff\u5de5\u4eba\u4e00\u6837\u719f\u7ec3\u5730\u6316\u5f00\u4e86\u77f3\u5934\uff0c\u4f46\u4f60\u77e5\u9053\u4f60\u5e76\u4e0d\u662f\u3002")
+setPos(-411,-102)
+
+addParent("EnigTech:Era_Prime/cobblestone")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/cobblestone")
+
+hideLines()
+setHidden(true)

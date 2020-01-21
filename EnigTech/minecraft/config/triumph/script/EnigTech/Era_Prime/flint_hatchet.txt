@@ -1,0 +1,12 @@
+setIcon(<survivalist:hatchet>)
+setTitle("\u71e7\u77f3\u77ed\u67c4\u65a7")
+setDescription("\u5236\u4f5c\u4e00\u628a\u71e7\u77f3\u65a7\uff0c\u5b83\u53ef\u4ee5\u5e2e\u52a9\u4f60\u63d0\u9ad8\u5288\u780d\u539f\u6728\u7684\u6548\u7387\u3002")
+addParent("EnigTech:Era_Prime/flint")
+addParent("EnigTech:Era_Prime/string")
+setPos(-314,-70)
+
+criteria = addCriteria("craftedFlintHatchet", "minecraft:inventory_changed")
+criteria.addItem(<survivalist:hatchet>)
+
+drawDirectLines(true)
+alwaysVisible()

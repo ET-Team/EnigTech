@@ -1,0 +1,10 @@
+setIcon(<>)
+setTitle("")
+setDescription("")
+addParent("EnigTech:Era_Prime/")
+setPos(-156,14)
+
+criteria = addCriteria("crT", "")
+
+drawDirectLines(true)
+alwaysVisible()

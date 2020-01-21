@@ -1,0 +1,8 @@
+setIcon(<twilightforest:fiery_ingot>)
+setTitle("hail hydra")
+setDescription("\u83b7\u5f97\u70bd\u70ed\u94c1\u952d")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:fiery_ingot>)
+addParent("EnigTech:Era4/root")
+setPos(-790,-6)

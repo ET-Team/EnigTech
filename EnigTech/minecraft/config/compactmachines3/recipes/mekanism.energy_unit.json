@@ -1,0 +1,105 @@
+{
+  "name": "compactmachines3:mek_energy_unit",
+
+  "disabled": false,
+
+  "target-block": "mekanism:energycube",
+  "target-count": 1,
+  "target-meta": 0,
+  "target-nbt": "{tier:0}",
+
+  "duration": 200,
+  "symmetrical": true,
+
+    "catalyst": "botania:pool",
+  "catalyst-meta": 3,
+
+  
+  "input-types": {
+    "a": {
+      "id": "mekanismgenerators:generator",
+      "meta": 9
+    },
+    "b": {
+      "id": "thaumcraft:stabilizer",
+      "meta": 0
+    },
+    "c": {
+      "id": "bloodmagic:blood_rune",
+      "meta": 7
+    },
+    "d": {
+      "id": "silentgems:miscblock",
+      "meta": 1
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{facing:4,id:\"mekanismgenerators:electromagnetic_coil\",redstone:0b}"
+    },
+    "a:B": {
+      "nbt": "{facing:1,id:\"mekanismgenerators:electromagnetic_coil\",redstone:0b}"
+    },
+    "a:C": {
+      "nbt": "{facing:3,id:\"mekanismgenerators:electromagnetic_coil\",redstone:0b}"
+    },
+    "b:A": {
+      "nbt": "{id:\"thaumcraft:tilestabilizer\",energy:15}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:B",
+        "d",
+        "a:C"
+      ],
+      [
+        "a:C",
+        "a:A",
+        "a:A"
+      ]
+    ]
+  ]
+
+}
+

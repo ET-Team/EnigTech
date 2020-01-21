@@ -1,0 +1,7 @@
+tellraw @p {"text":"FirstNecron is smelly.我在哪？FirstNecron is smelly.","obfuscated":true}
+tellraw @p {"text":"FirstNecron is smelly.我不是在睡觉吗？FirstNecron is smelly.","obfuscated":true}
+tellraw @p {"text":"FirstNecron is smelly.我怎么在野外？FirstNecron is smelly.","obfuscated":true}
+tellraw @p {"text":"FirstNecron is smelly.真人荒野求生系列？我手机还在身上呢！FirstNecron is smelly.","obfuscated":true}
+tellraw @p {"text":"你意识到你好像并不在你温暖的家中了，取而代之的是残酷的荒野","color":"yellow"}
+tellraw @p {"text":"你发现你脑袋里似乎多了点什么，但却又说不清，但你意识到虽然很多现代社会的知识都遗忘了，你的记忆力却变得超乎寻常","color":"aqua"}
+tellraw @p {"text":"你决定将你在这个世界的所见所闻都记录在脑海中 按 ‘L’ 键来回溯你的记忆","color":"gold"}

@@ -1,0 +1,8 @@
+setIcon(<embers:beam_cannon>)
+setTitle("MEGA\u5149\u675f\u70ae")
+setDescription("\u5236\u4f5c\u5149\u675f\u70ae.")
+addParent("EnigTech:Era_Farm/huijinlu")
+setPos(-116,-94)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:beam_cannon>)

@@ -1,0 +1,11 @@
+setIcon(<minecraft:planks>)
+setTitle("\u677f\u7838")
+setDescription("Heart\u548c\u963f\u5e03\u6839\u636e\u8fd9\u4e2a\u677f\u7838\u4e3aEDG\u9009\u62e9\u51fa\u4e86\u56db\u8def\u6297\u538b\u9635\u5bb9\uff0c\u7b80\u76f4\u662f\u4e2a\u5947\u8ff9\uff01")
+addParent("EnigTech:Era_Prime/chop")
+setPos(-363,47)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<ore:plankWood>)
+
+drawDirectLines(true)
+alwaysVisible()

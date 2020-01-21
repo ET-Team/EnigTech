@@ -1,0 +1,8 @@
+setIcon(<embers:stamper_base>)
+setTitle("\u6211\u6765\u7ec4\u6210\u8eab\u4f53\uff01")
+setDescription("\u83b7\u5f97\u538b\u5370\u57fa\u5ea7.")
+addParent("EnigTech:Era_Farm/ronglianlu")
+setPos(-259,-68)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:stamper_base>)

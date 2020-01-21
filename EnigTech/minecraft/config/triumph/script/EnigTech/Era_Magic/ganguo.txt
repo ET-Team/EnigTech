@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:crucible>)
+setTitle("\u7c73\u51ef\u5c14\u7684\u5769\u57da")
+setDescription("\u62ff\u7740\u4e16\u754c\u76d0\u53f3\u952e\u70bc\u836f\u9505\uff0c\u6765\u83b7\u5f97\u5769\u57da")
+addParent("EnigTech:Era_Magic/modaoshouce")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:crucible>)
+setPos(-631,-79)

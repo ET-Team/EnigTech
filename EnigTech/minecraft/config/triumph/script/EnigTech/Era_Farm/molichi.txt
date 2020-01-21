@@ -1,0 +1,8 @@
+setIcon(<botania:pool>)
+setTitle("mana\u4e4b\u5bb6")
+setDescription("\u5236\u4f5c\u9b54\u529b\u6c60")
+addParent("EnigTech:Era_Farm/huoshi")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:pool>)
+setPos(-387,-91)

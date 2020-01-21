@@ -1,0 +1,88 @@
+{
+  "name": "compactmachines3:thermal_boil_block",
+
+  "disabled": false,
+
+  
+  "target-block": "mekanism:basicblock2",
+  "target-count": 64,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  "catalyst": "botania:specialflower",
+  "catalyst-meta": 0,
+  "catalyst-nbt": "{type:\"exoflame\"}",
+
+  
+  "input-types": {
+    "a": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    },
+    "b": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 3
+    },
+    "c": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+
+}
+

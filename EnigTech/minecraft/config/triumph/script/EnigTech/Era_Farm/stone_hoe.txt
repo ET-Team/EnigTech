@@ -1,0 +1,11 @@
+setIcon(<minecraft:stone_hoe>)
+setTitle("Food gives to the hungry O Lord.")
+setDescription("\u5236\u9020\u4e00\u4e2a\u77f3\u9504")
+addParent("EnigTech:Era_Farm/gongzuotai")
+setPos(-502,-124)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stone_hoe>)
+
+drawDirectLines(true)
+alwaysVisible()

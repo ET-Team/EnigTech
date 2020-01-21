@@ -1,0 +1,10 @@
+setIcon(<minecraft:wheat_seeds>)
+setTitle("\u79cd\u5b50")
+setDescription("1024")
+addParent("EnigTech:Era_Prime/root")
+setPos(-265,-70)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+hideLines()
+alwaysVisible()

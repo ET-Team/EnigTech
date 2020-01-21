@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u795e\u79d8\u82b1\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u201d\u8bf6\uff1f\u8fd9\u662f\u4ec0\u4e48\uff1f\u201c\uff0c\u4f60\u60ca\u8bb6\u7684\u53d1\u73b0\u5730\u9762\u4e0a\u957f\u7740\u4e00\u4e9b\u6563\u843d\u7740\u795e\u79d8\u5c18\u57c3\u7684\u82b1\u6735\u3002")
+setPos(-502,-227)
+
+addParent("EnigTech:Era_Farm/mystical_flower")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Farm/mystical_flower")
+
+hideLines()
+setHidden(true)

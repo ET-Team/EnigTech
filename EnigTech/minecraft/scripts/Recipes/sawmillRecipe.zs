@@ -1,0 +1,1 @@
+mods.mekanism.sawmill.addRecipe(<thermalfoundation:storage_alloy:7>, <thermalfoundation:material:359>*2);

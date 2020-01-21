@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:thaumometer>)
+setTitle("\u6211\u770b\u5230\u4e86\u771f\u7406\uff01")
+setDescription("\u83b7\u5f97\u9b54\u5bfc\u900f\u955c")
+addParent("EnigTech:Era_Magic/aoshugongzuotai")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:thaumometer>)
+setPos(-602,-19)

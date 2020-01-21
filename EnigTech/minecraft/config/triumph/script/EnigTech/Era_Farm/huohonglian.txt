@@ -1,0 +1,8 @@
+setIcon(<botania:specialflower, nbt:{type:"endoflame"}>)
+setTitle("\u5929\u5e72\u7269\u71e5,\u5c0f\u5fc3\u706b\u70db")
+setDescription("\u5236\u4f5c\u706b\u7ea2\u83b2.")
+addParent("EnigTech:Era_Farm/huayaotai")
+setPos(-387,-124)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type:"endoflame"}>)

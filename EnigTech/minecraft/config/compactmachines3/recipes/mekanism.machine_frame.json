@@ -1,0 +1,53 @@
+{
+  "name": "compactmachines3:mek_machine_frame",
+
+  "disabled": false,
+
+  
+  "target-block": "mekanism:basicblock",
+  "target-count": 2,
+  "target-meta": 8,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "mekanism:enrichedalloy",
+
+  "input-types": {
+    "a": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "b": {
+      "id": "mekanism:basicblock",
+      "meta": 0
+    },
+    "c": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "c"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "c"
+      ]
+    ]
+  ]
+}
+

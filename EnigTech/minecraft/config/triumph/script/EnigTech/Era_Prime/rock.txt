@@ -1,0 +1,8 @@
+setIcon(<immcraft:rock>)
+setTitle("\u77f3\u5b50")
+setDescription("\u968f\u5904\u53ef\u89c1\u7684\u5c0f\u77f3\u5b50")
+addParent("EnigTech:Era_Prime/root")
+setPos(-466,-31)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<immcraft:rock>)

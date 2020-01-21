@@ -1,0 +1,18 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u4f5c\u7269\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u4f60\u53d1\u73b0\u8fd9\u4e2a\u4e16\u754c\u7684\u4f5c\u7269\u751f\u957f\u7684\u5f02\u5e38\u8fc5\u901f\u3002")
+setPos(-539,-227)
+
+addParent("EnigTech:Era_Farm/wheat")
+addParent("EnigTech:Era_Farm/vanilla")
+
+setRequirements("all")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Farm/wheat")
+
+criteria1 = addCriteria("completedParent", "triumph:completed_advancement")
+criteria1.setAdvancement("EnigTech:Era_Farm/vanilla")
+
+hideLines()
+setHidden(true)

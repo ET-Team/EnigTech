@@ -1,0 +1,8 @@
+setIcon(<compactmachines3:fieldprojector>)
+setTitle(".zip")
+setDescription("\u83b7\u5f97\u7a7a\u95f4\u538b\u7f29\u673a\u68b0\u5236\u4f5c\u5668")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<compactmachines3:fieldprojector>)
+addParent("EnigTech:Era4/root")
+setPos(-766,-43)

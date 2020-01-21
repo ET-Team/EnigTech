@@ -1,0 +1,67 @@
+{
+  "name": "compactmachines3:mat_ender_block",
+
+  "disabled": false,
+
+  "target-block": "thermalfoundation:storage_alloy",
+  "target-count": 8,
+  "target-meta": 7,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  "catalyst": "botania:specialflower",
+  "catalyst-meta": 0,
+  "catalyst-nbt": "{type:\"exoflame\"}",
+
+  "input-types": {
+    "a": {
+      "id": "jaopca:block_blockenderessence",
+      "meta": 0
+    },
+    "b": {
+      "id": "thermalfoundation:storage",
+      "meta": 3
+    },
+    "c": {
+      "id": "thermalfoundation:storage",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c"
+      ],
+      [
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b"
+      ]
+    ]
+  ]
+
+
+}
+

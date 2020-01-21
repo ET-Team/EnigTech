@@ -1,0 +1,8 @@
+setIcon(<avaritia:extreme_crafting_table>)
+setTitle("\u7ec8\u6781\u5de5\u4f5c\u53f0")
+setDescription("\u83b7\u5f97\u7ec8\u6781\u5de5\u4f5c\u53f0")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:extreme_crafting_table>)
+addParent("EnigTech:Era4/shuijingjuzhending")
+setPos(-692,29)

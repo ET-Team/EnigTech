@@ -1,0 +1,8 @@
+setIcon(<iceandfire:pixie_dust>)
+setTitle("\u5c0f\u7cbe\u7075\u6211\u6765\u5566~~~")
+setDescription("\u4ece\u5c0f\u7cbe\u7075\u90a3\u91cc\u83b7\u5f97\u7cbe\u7075\u5c18")
+addParent("EnigTech:Era_Magic/root")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<iceandfire:pixie_dust>)
+setPos(-731,-57)

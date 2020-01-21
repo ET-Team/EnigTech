@@ -1,0 +1,12 @@
+setIcon(<minecraft:dye:15>)
+setTitle("\u9aa8\u7c89")
+setDescription("\u9aa8\u5934\u53ef\u4ee5\u5728\u7814\u94b5\u91cc\u78e8\u7684\u66f4\u7ec6\uff0c\u4f3c\u4e4e\u53ef\u4ee5\u7528\u6765\u65bd\u80a5\u3002")
+addParent("EnigTech:Era_Prime/mortar")
+addParent("EnigTech:Era_Prime/skeleton")
+setPos(-265,9)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dye:15>)
+
+drawDirectLines(true)
+alwaysVisible()

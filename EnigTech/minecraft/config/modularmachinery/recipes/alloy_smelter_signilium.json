@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_signilium",
+    "recipeTime": 80,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 600
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@165",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@128",
+            "amount": 3
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 8
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@130",
+            "amount": 1
+        }
+    ]
+}

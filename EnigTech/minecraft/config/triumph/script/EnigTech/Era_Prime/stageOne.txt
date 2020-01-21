@@ -1,0 +1,12 @@
+setIcon(<gamestagebooks:one>)
+setTitle("\u751f\u5b58\u6307\u5357")
+setDescription("\u7b80\u5355\u5730\u611f\u53d7\u8fd9\u4e2a\u4e16\u754c\uff0c\u4f7f\u7528\u77f3\u5b50\u548c\u6728\u68cd\u5236\u4f5c\u751f\u5b58\u6307\u5357\u6765\u89e3\u9501\u7b2c\u4e00\u9636\u6bb5")
+addParent("EnigTech:Era_Prime/root")
+setPos(-539,-31)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<gamestagebooks:one>)
+
+drawDirectLines(true)
+alwaysVisible()
+setFrameType("GOAL")

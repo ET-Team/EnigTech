@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_liuminium",
+    "recipeTime": 80,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 1200
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@166",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@129",
+            "amount": 3
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:glowstone_dust",
+            "amount": 8
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@130",
+            "amount": 1
+        }
+    ]
+}

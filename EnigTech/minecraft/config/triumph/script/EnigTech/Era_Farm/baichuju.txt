@@ -1,0 +1,8 @@
+setIcon(<botania:specialflower, nbt:{type:"puredaisy"}>)
+setTitle("\u5feb\u4e50\u7684\u8f6c\u5316")
+setDescription("\u5f80\u82b1\u836f\u53f0\u4e2d\u4e22\u5165\u56db\u4e2a\u767d\u8272\u82b1\u74e3\u548c\u4e00\u7c92\u79cd\u5b50\u6765\u5236\u4f5c\u767d\u96cf\u83ca.")
+addParent("EnigTech:Era_Farm/huayaotai")
+setPos(-456,-84)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower>)

@@ -1,0 +1,8 @@
+setIcon(<avaritia:neutronium_compressor>)
+setTitle(".7z")
+setDescription("\u83b7\u5f97\u4e2d\u5b50\u6001\u7d20\u538b\u7f29\u673a")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:neutronium_compressor>)
+addParent("EnigTech:Era4/zhongzisutaishoujiqi")
+setPos(-691,-43)

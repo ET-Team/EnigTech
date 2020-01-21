@@ -1,0 +1,86 @@
+{
+  "name": "compactmachines3:chaos_controller",
+
+  "disabled": false,
+  
+  "target-item": "silentgems:craftingmaterial",
+  "target-count": 64,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  
+  
+  "catalyst": "environmentaltech:erodium_crystal",
+  "catalyst-meta": 0,
+
+  
+  
+  
+  "input-types": {
+    "a": {
+      "id": "iceandfire:ash",
+      "meta": 0
+    },
+    "b": {
+      "id": "appliedenergistics2:smooth_sky_stone_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "minecraft:redstone_block",
+      "meta": 0
+    },
+    "d": {
+      "id": "jaopca:block_blockastralstarmetal",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "c",
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "d",
+        "b",
+        "d",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "c",
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+
+
+
+
+}
+

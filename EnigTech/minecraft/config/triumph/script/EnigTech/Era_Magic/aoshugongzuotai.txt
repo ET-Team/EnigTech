@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:arcane_workbench>)
+setTitle("\u66f4\u597d\u7684\u5de5\u4f5c\u53f0")
+setDescription("\u62ff\u4e16\u754c\u76d0\u53f3\u51fb\u5de5\u4f5c\u53f0\uff0c\u6765\u83b7\u5f97\u5965\u672f\u5de5\u4f5c\u53f0")
+addParent("EnigTech:Era_Magic/modaoshouce")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:arcane_workbench>)
+setPos(-632,-19)

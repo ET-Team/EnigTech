@@ -1,0 +1,11 @@
+setIcon(<coffeework:vanilla>)
+setTitle("\u554a~\u597d\u9999")
+setDescription("\u79cd\u690d\u9999\u8349\u79cd\u5b50\u5f97\u5230\u9999\u8349\u835a")
+addParent("EnigTech:Era_Farm/farm")
+setPos(-456,-169)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<coffeework:vanilla>)
+
+drawDirectLines(true)
+alwaysVisible()

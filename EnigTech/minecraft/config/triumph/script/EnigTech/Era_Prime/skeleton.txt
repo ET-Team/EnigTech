@@ -1,0 +1,11 @@
+setIcon(<minecraft:stone_sword>)
+setTitle("\u9ab7\u9ac5\uff01")
+setDescription("\u4f60\u5c45\u7136\u51fb\u6740\u4e86\u4e00\u53ea\u840c\u840c\u7684\u767d\u8272\u751f\u7269\uff01")
+addParent("EnigTech:Era_Prime/root")
+setPos(-314,47)
+
+criteria = addCriteria("crT", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:skeleton")
+
+hideLines()
+alwaysVisible()

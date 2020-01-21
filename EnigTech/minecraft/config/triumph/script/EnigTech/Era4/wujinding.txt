@@ -1,0 +1,8 @@
+setIcon(<avaritia:resource:6>)
+setTitle("\u65e0\u5c3d\u952d")
+setDescription("\u5e86\u8d3a\u5427\uff01 \u7ee7\u627f\u5168\u91d1\u5c5e\u7684\u529b\u91cf\uff0c\u901a\u6653\u5929\u7a7a\u4e0e\u5927\u5730\u7684\u91d1\u5c5e\u738b\u8005\u3002\u5176\u540d\u4e3a\u65e0\u5c3d\u952d\u3002\u6b64\u523b\u6b63\u662f\u5176\u8bde\u751f\u7684\u77ac\u95f4\u3002")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:resource:6>)
+addParent("EnigTech:Era4/zhongzitaisuyasuoji")
+setPos(-644,-43)

@@ -1,0 +1,8 @@
+setIcon(<mekanism:basicblock:14>)
+setTitle("\u84b8\u998f\u5854")
+setDescription("\u83b7\u5f97\u70ed\u529b\u84b8\u998f\u63a7\u5236\u5668")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:basicblock:14>)
+addParent("EnigTech:Era4/yejinguanzhuji")
+setPos(-814,-112)

@@ -1,0 +1,8 @@
+setIcon(<mekanism:robit>)
+setTitle("I, Robot")
+setDescription("\u83b7\u5f97\u673a\u5668\u4eba")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:robit>)
+addParent("EnigTech:Era4/yuanzihejin")
+setPos(-765,-152)

@@ -1,0 +1,8 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("\u6211\u4e0d\u9700\u8981\u5de5\u4f5c\u53f0")
+setDescription("\u5236\u4f5c\u4e00\u4e2a\u5de5\u4f5c\u53f0")
+addParent("EnigTech:Era_Farm/root")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:crafting_table>)
+setPos(-541,-83)

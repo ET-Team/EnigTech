@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:blood_shard>)
+setTitle("\u6c14\u8840\u4e0d\u8db3\uff1f\u5feb\u7528\u6c14\u8840\u788e\u7247\uff01")
+setDescription("\u4f7f\u7528\u675f\u7f1a\u4e4b\u5251\u51fb\u6740\u751f\u7269\uff0c\u6765\u83b7\u5f97\u6c14\u8840\u788e\u7247")
+addParent("EnigTech:Era_Magic/shufuzhijian")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_shard>)
+setPos(-494,-54)

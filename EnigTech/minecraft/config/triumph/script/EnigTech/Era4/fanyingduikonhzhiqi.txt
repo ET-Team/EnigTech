@@ -1,0 +1,8 @@
+setIcon(<mekanismgenerators:reactor>)
+setTitle("\u53cd\u5e94\u5806")
+setDescription("\u83b7\u5f97\u53cd\u5e94\u5806\u63a7\u5236\u5668")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanismgenerators:reactor>)
+addParent("EnigTech:Era4/relizhengliukongzhiqi")
+setPos(-814,-151)

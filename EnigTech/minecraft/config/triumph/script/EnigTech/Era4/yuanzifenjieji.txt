@@ -1,0 +1,8 @@
+setIcon(<mekanism:atomicdisassembler>)
+setTitle("\u539f\u5b50\u5206\u89e3\u673a")
+setDescription("\u83b7\u5f97\u539f\u5b50\u5206\u89e3\u673a")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:atomicdisassembler>)
+addParent("EnigTech:Era4/yuanzihejin")
+setPos(-717,-112)

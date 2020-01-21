@@ -1,0 +1,8 @@
+setIcon(<botania:runealtar>)
+setTitle("\u8fd9\u4e2a\u796d\u575b\u7528\u6765\u796d\u7940\u4ec0\u4e48\u795e\u5462\uff1f")
+setDescription("\u5236\u4f5c\u7b26\u6587\u796d\u575b")
+addParent("EnigTech:Era_Farm/limingshiding")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:runealtar>)
+setPos(-152,-44)

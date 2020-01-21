@@ -1,0 +1,13 @@
+setIcon(<advancedmortars:mortar>)
+setTitle("\u5343\u4e07\u522b\u5f04\u6d12\uff01")
+setDescription("\u5236\u4f5c\u4e00\u4e2a\u7814\u94b5")
+addParent("EnigTech:Era_Prime/plank")
+addParent("EnigTech:Era_Prime/flint")
+setPos(-314,9)
+
+criteria = addCriteria("crT", "triumph:player_crafted_item")
+criteria.setItem(<advancedmortars:mortar>)
+
+drawDirectLines(true)
+alwaysVisible()
+setFrameType("GOAL")

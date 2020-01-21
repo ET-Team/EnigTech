@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:sigil_divination>)
+setTitle("\u6211\u4eca\u5929\u8fd0\u6c14\u5982\u4f55\u5462\uff1f")
+setDescription("\u83b7\u5f97\u5360\u535c\u5370\u8bb0")
+addParent("EnigTech:Era_Magic/aoshufenhui")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:sigil_divination>)
+setPos(-494,-84)

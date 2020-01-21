@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u7070\u70ec\u6676\u4f53\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u4f60\u901a\u8fc7\u8fdc\u53e4\u79d1\u6280\u7684\u5f00\u91c7\u5668\uff0c\u5f00\u91c7\u51fa\u4e86\u8574\u542b\u7740\u795e\u79d8\u80fd\u91cf\u7684\u6676\u4f53\u3002")
+setPos(-464,-227)
+
+addParent("EnigTech:Era_Farm/root")
+
+criteria = addCriteria("completedParent", "minecraft:inventory_changed")
+criteria.addItem(<embers:crystal_ember>)
+
+hideLines()
+setHidden(true)

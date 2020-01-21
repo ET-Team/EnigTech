@@ -1,0 +1,132 @@
+{
+  "name": "compactmachines3:mek_metallic_infuser",
+
+  "disabled": false,
+
+  
+  
+  "target-block": "mekanism:machineblock",
+  "target-count": 1,
+  "target-meta": 8,
+  "target-nbt": "{mekData:{}}",
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  "catalyst": "embers:superheater",
+  "catalyst-meta": 0,
+
+  
+  
+  "input-types": {
+    "a": {
+      "id": "minecraft:redstone_wire",
+      "meta": 0
+    },
+    "b": {
+      "id": "thaumcraft:smelter_basic",
+      "meta": 12
+    },
+    "c": {
+      "id": "thaumcraft:metal_alchemical_advanced",
+      "meta": 0
+    },
+    "d": {
+      "id": "botania:storage",
+      "meta": 2
+    },
+    "e": {
+      "id": "thermalfoundation:storage",
+      "meta": 8
+    },
+    "f": {
+      "id": "bloodmagic:blood_rune",
+      "meta": 10
+    }
+  },
+  "input-nbt": {
+    "b:A": {
+      "nbt": "{CookTime:0s,Aspects:[],BurnTime:0s,speedBoost:0b,Items:[],id:\"thaumcraft:tilesmelter\"}"
+    }
+  },
+  
+  "input-types": {
+    "a": {
+      "id": "minecraft:redstone_wire",
+      "meta": 0
+    },
+    "b": {
+      "id": "bloodmagic:blood_rune",
+      "meta": 10
+    },
+    "c": {
+      "id": "thaumcraft:metal_alchemical_advanced",
+      "meta": 0
+    },
+    "d": {
+      "id": "thermalfoundation:storage",
+      "meta": 8
+    },
+    "e": {
+      "id": "botania:storage",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "c",
+        "c",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "d",
+        "e",
+        "a"
+      ],
+      [
+        "a",
+        "e",
+        "d",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}
+

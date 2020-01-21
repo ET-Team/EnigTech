@@ -1,0 +1,11 @@
+setIcon(<minecraft:cobblestone>)
+setTitle("\u575a\u4e0d\u53ef\u6467\u7684\u8c46\u8150")
+setDescription("\u7528\u4f60\u7684\u5341\u5b57\u9550\u6765\u6316\u6398\u4e00\u4e9b\u77f3\uff08Dou\uff09\u5934\uff08Fu\uff09")
+addParent("EnigTech:Era_Prime/flint_pickaxe")
+setPos(-265,-31)
+
+criteria = addCriteria("crT", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cobblestone>)
+
+drawDirectLines(true)
+alwaysVisible()

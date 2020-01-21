@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:component:8>)
+setTitle("\u675f\u7f1a\u8bd5\u5242")
+setDescription("\u83b7\u5f97\u675f\u7f1a\u8bd5\u5242")
+addParent("EnigTech:Era_Magic/yuhuoronglu")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:component:8>)
+setPos(-567,-54)

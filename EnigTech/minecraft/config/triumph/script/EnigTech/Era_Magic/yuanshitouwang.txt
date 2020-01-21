@@ -1,0 +1,8 @@
+setIcon(<bloodmagic:soul_snare>)
+setTitle("\u7075\u9b42\u8ffd\u730e\u8005")
+setDescription("\u83b7\u5f97\u539f\u59cb\u6295\u7f51")
+addParent("EnigTech:Era_Magic/ganguo")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_snare>)
+setPos(-599,-57)

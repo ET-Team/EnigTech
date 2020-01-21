@@ -1,0 +1,92 @@
+{
+  "name": "compactmachines3:pe_philosophers_stone",
+
+  "disabled": false,
+
+  
+  "target-item": "projecte:item.pe_philosophers_stone",
+  "target-count": 1,
+  "target-meta": 0,
+  "target-nbt": "{}",
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  "catalyst": "avaritia:resource",
+  "catalyst-meta": 5,
+
+  
+  "input-types": {
+    "a": {
+      "id": "avaritia:block_resource",
+      "meta": 2
+    },
+    "b": {
+      "id": "minecraft:stone",
+      "meta": 0
+    },
+    "c": {
+      "id": "avaritia:block_resource",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+
+
+
+}
+

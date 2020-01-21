@@ -1,0 +1,17 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5236\u4f5c\u7b80\u6613\u673a\u5668\u65f6\u7684\u53d1\u73b0")
+setDescription("\u62e5\u6709\u52a0\u5de5\u8bbe\u5907\u540e\uff0c\u4f60\u5f00\u59cb\u5c1d\u8bd5\u4f7f\u7528\u77f3\u6750\u548c\u94c1\u6750\u5236\u4f5c\u7b80\u5355\u7684\u673a\u5668\u3002\u4f46\u4f60\u53d1\u73b0\u672c\u8be5\u8010\u70ed\u7684\u91d1\u5c5e\u53d8\u5f97\u5f02\u5e38\u7684\u8106\u5f31\uff0c\u4f60\u7684\u5c1d\u8bd5\u5931\u8d25\u4e86\u3002")
+setPos(-578,-227)
+
+addParent("EnigTech:Era_Farm/root")
+
+setRequirements("all")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Farm/gongzuotai")
+
+criteria1 = addCriteria("oml", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:iron_ingot>)
+
+hideLines()
+setHidden(true)

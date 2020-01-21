@@ -1,0 +1,261 @@
+{
+  "name": "compactmachines3:avrta.superemeWorkbench",
+
+  "disabled": false,
+
+  
+  
+  
+  "target-block": "avaritia:extreme_crafting_table",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  
+  
+  "catalyst": "coffeework:itemmaterials",
+  "catalyst-meta": 5,
+
+  
+  
+  
+  "input-types": {
+    "a": {
+      "id": "iceandfire:myrmex_desert_resin_glass",
+      "meta": 0
+    },
+    "b": {
+      "id": "avaritia:block_resource",
+      "meta": 2
+    },
+    "c": {
+      "id": "twilightforest:block_storage",
+      "meta": 1
+    },
+    "d": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 7
+    },
+    "e": {
+      "id": "botania:storage",
+      "meta": 2
+    },
+    "f": {
+      "id": "avaritia:double_compressed_crafting_table",
+      "meta": 0
+    },
+    "g": {
+      "id": "thaumcraft:metal_void",
+      "meta": 0
+    },
+    "h": {
+      "id": "silentgems:miscblock",
+      "meta": 2
+    },
+    "i": {
+      "id": "jaopca:block_blockastralstarmetal",
+      "meta": 0
+    },
+    "j": {
+      "id": "bloodmagic:blood_rune",
+      "meta": 9
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "g",
+        "g"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "g",
+        "g"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "c",
+        "b",
+        "h",
+        "h"
+      ],
+      [
+        "c",
+        "c",
+        "b",
+        "h",
+        "h"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "g",
+        "g"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "g",
+        "g"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "c",
+        "b",
+        "h",
+        "h"
+      ],
+      [
+        "c",
+        "c",
+        "b",
+        "h",
+        "h"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "f",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ]
+    ],
+    [
+      [
+        "d",
+        "d",
+        "b",
+        "i",
+        "i"
+      ],
+      [
+        "d",
+        "d",
+        "b",
+        "i",
+        "i"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "e",
+        "e",
+        "b",
+        "j",
+        "j"
+      ],
+      [
+        "e",
+        "e",
+        "b",
+        "j",
+        "j"
+      ]
+    ],
+    [
+      [
+        "d",
+        "d",
+        "b",
+        "i",
+        "i"
+      ],
+      [
+        "d",
+        "d",
+        "b",
+        "i",
+        "i"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "e",
+        "e",
+        "b",
+        "j",
+        "j"
+      ],
+      [
+        "e",
+        "e",
+        "b",
+        "j",
+        "j"
+      ]
+    ]
+  ]
+
+
+
+
+
+}
+

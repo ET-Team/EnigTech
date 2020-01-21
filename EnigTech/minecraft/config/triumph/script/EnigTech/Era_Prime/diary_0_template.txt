@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("Note on ")
+setDescription("")
+setPos(-436,-124)
+
+addParent("EnigTech:Era_Prime/")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/")
+
+hideLines()
+setHidden(true)

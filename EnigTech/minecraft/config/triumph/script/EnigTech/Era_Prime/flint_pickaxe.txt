@@ -1,0 +1,13 @@
+setIcon(<survivalist:pick>)
+setTitle("\u71e7\u77f3\u9550")
+setDescription("\u5236\u4f5c\u4e00\u628a\u71e7\u77f3\u9550\uff0c\u5b83\u80fd\u5e2e\u52a9\u4f60\u6316\u6398\u77f3\u5934\u3002")
+addParent("EnigTech:Era_Prime/string")
+addParent("EnigTech:Era_Prime/flint")
+setPos(-314,-31)
+
+criteria = addCriteria("craftedFlintPickaxe", "triumph:player_crafted_item")
+criteria.setItem(<survivalist:pick>)
+
+
+drawDirectLines(true)
+alwaysVisible()

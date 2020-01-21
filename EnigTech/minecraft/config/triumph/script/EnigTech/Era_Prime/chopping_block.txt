@@ -1,0 +1,11 @@
+setIcon(<survivalist:chopping_block>)
+setTitle("\u7827\u677f")
+setDescription("\u5343\u4e07\u4e0d\u8981\u628a\u4f60\u7684\u5934\u653e\u4e0a\u53bb\uff01")
+addParent("EnigTech:Era_Prime/log")
+setPos(-466,20)
+
+criteria = addCriteria("hasChoppingBlock", "minecraft:inventory_changed")
+criteria.addItem(<survivalist:chopping_block>)
+
+drawDirectLines(true)
+alwaysVisible()

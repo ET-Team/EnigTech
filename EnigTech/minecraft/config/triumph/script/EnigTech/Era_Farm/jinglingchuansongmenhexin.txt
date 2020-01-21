@@ -1,0 +1,8 @@
+setIcon(<botania:alfheimportal>)
+setTitle("\u5f00\u542f\u4f20\u9001\u95e8~")
+setDescription("\u5236\u4f5c\u7cbe\u7075\u4f20\u9001\u95e8\u6838\u5fc3")
+addParent("EnigTech:Era_Farm/tailaningjuban")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:alfheimportal>)
+setPos(29,-94)

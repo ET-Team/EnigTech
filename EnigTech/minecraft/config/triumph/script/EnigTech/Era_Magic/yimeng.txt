@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:crystal_essence>)
+setTitle("\u5bfc\u68a6")
+setDescription("\u83b7\u5f97\u9b54\u529b\u6c34\u6676\u4e4b\u540e\uff0c\u7761\u4e00\u89c9")
+addParent("EnigTech:Era_Magic/root")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:crystal_essence>)
+setPos(-731,-92)

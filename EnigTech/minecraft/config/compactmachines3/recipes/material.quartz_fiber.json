@@ -1,0 +1,87 @@
+{
+  "name": "compactmachines3:mat_quartz_fiber",
+
+  "disabled": false,
+
+  
+  "target-item": "appliedenergistics2:part",
+  "target-count": 64,
+  "target-meta": 140,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  "catalyst": "bloodmagic:demon_crystal",
+  "catalyst-meta": 0,
+
+  
+  "input-types": {
+    "a": {
+      "id": "botania:elfglass",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:quartz_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+
+
+}
+

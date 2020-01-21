@@ -1,0 +1,8 @@
+setIcon(<avaritia:resource:1>)
+setTitle("\u6c34\u6676\u77e9\u9635\u952d")
+setDescription("\u83b7\u5f97\u6c34\u6676\u77e9\u9635\u952d")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:resource:1>)
+addParent("EnigTech:Era4/wujixukongcaijueji ")
+setPos(-692,67)

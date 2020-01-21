@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u539f\u6728\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u4f60\u5f88\u7b80\u5355\u5730\u5c31\u5c06\u4e00\u68f5\u6811\u62e6\u8170\u6298\u65ad\uff0c\u4f60\u60f3\uff1a\u201c\u8fd9\u513f\u7684\u6728\u5934\u90fd\u8fd9\u4e48\u8106\u5417\uff1f\u201d")
+setPos(-511,-102)
+
+addParent("EnigTech:Era_Prime/log")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/log")
+
+hideLines()
+setHidden(true)

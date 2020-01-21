@@ -1,0 +1,1 @@
+recipes.addShaped(<bloodmagic:blood_shard:1>, [[null, <botania:rune:13>, null],[<embers:ember_cluster>, <bloodmagic:blood_shard>, <embers:ember_cluster>], [null, <xreliquary:infernal_chalice>, null]]);

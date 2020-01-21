@@ -1,0 +1,12 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u9ab7\u9ac5\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u201c\u8fd9\u7279\u4e48\u662f\u4ec0\u4e48\u4e1c\u897f\uff01\u201d\uff0c\u4f60\u88ab\u8fd9\u4e2a\u9aa8\u5934\u5236\u6210\u7684\u602a\u7269\u5413\u4e86\u4e00\u8df3\uff0c\u8fd9\u4e2a\u4e16\u754c\u4f3c\u4e4e\u5bf9\u4f60\u5145\u6ee1\u4e86\u654c\u610f\u3002")
+setPos(-443,-102)
+
+addParent("EnigTech:Era_Prime/skeleton")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/skeleton")
+
+hideLines()
+setHidden(true)

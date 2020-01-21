@@ -1,0 +1,20 @@
+setIcon(<minecraft:paper>)
+setTitle("\u5728\u5de5\u5177\u4e0a\u7684\u53d1\u73b0")
+setDescription("\u4f60\u53d1\u73b0\u4f60\u5236\u4f5c\u7684\u5de5\u5177\u4e0d\u77e5\u9053\u4e3a\u4ec0\u4e48\u975e\u5e38\u6613\u78e8\u635f\u3002")
+setPos(-477,-102)
+
+addParent("EnigTech:Era_Prime/root")
+
+setRequirements("any")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/flint_hatchet")
+
+criteria1 = addCriteria("completedParent", "triumph:completed_advancement")
+criteria1.setAdvancement("EnigTech:Era_Prime/flint_pickaxe")
+
+criteria2 = addCriteria("completedParent", "triumph:completed_advancement")
+criteria2.setAdvancement("EnigTech:Era_Prime/flint_shovel")
+
+hideLines()
+setHidden(true)

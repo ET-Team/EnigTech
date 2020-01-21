@@ -1,0 +1,8 @@
+setIcon(<embers:alchemy_tablet>)
+setTitle("\u5c11\u5e74~\u8981\u8d24\u8005\u4e4b\u77f3\u5417\uff1f")
+setDescription("\u5236\u4f5c\u70bc\u91d1\u53f0.")
+addParent("EnigTech:Era_Farm/guangshupao")
+setPos(-56,-94)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:alchemy_tablet>)

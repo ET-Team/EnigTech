@@ -1,0 +1,26 @@
+setIcon(<minecraft:paper>)
+setTitle("\u8fdc\u53e4\u65f6\u4ee3\u77e5\u8bc6")
+setDescription("\u4ece\u4f60\u5bf9\u5468\u56f4\u7684\u4e86\u89e3\u6765\u770b\uff0c\u4f60\u53d1\u73b0\u8fd9\u4e2a\u4e16\u754c\u7684\u6750\u6599\u6bd4\u5730\u7403\u7684\u8981\u66f4\u52a0\u8584\u5f31\u3002")
+setPos(-180,-11)
+
+addParent("EnigTech:Era_Prime/root")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/diary_rock")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/diary_skeleton")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/diary_tools")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/diary_log")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("EnigTech:Era_Prime/diary_cobblestone")
+
+setFrameType("CHALLENGE")
+
+hideLines()
+setHidden(true)

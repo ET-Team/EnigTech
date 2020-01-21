@@ -1,0 +1,8 @@
+setIcon(<survivalist:plant_fibres>)
+setTitle("\u8349\u7ea4\u7ef4")
+setDescription("\u4f60\u8981\u77e5\u9053\u4f60\u5e76\u4e0d\u662f\u5c71\u7f8a\uff0c\u4f60\u4e5f\u5e76\u4e0d\u80fd\u5403\u8349\u3002")
+addParent("EnigTech:Era_Prime/root")
+setPos(-466,-70)
+
+criteria = addCriteria("hasGrass", "minecraft:inventory_changed")
+criteria.addItem(<survivalist:plant_fibres>)

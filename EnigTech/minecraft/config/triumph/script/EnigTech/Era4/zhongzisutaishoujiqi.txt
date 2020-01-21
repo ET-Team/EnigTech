@@ -1,0 +1,8 @@
+setIcon(<avaritia:neutron_collector>)
+setTitle("\u90fd\u8fc7\u6765\u5427\uff01\u5c0f\u866b\u5b50\u4eec\uff01")
+setDescription("\u83b7\u5f97\u4e2d\u5b50\u6001\u7d20\u6536\u96c6\u5668")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:neutron_collector>)
+addParent("EnigTech:Era4/zhongjigongzuotai")
+setPos(-692,-6)

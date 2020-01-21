@@ -1,0 +1,8 @@
+setIcon(<iceandfire:fire_dragon_heart>)
+setTitle("\u6251\u901a\uff01\u6251\u901a\uff01")
+setDescription("\u62ff\u7740\u7a7a\u624bshift\u53f3\u952e\u706b\u9f99\u7684\u5c38\u4f53\uff0c\u6765\u83b7\u5f97\u706b\u9f99\u5fc3")
+addParent("EnigTech:Era_Magic/root")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<iceandfire:fire_dragon_heart>)
+setPos(-731,15)

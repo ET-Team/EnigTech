@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:thaumonomicon>)
+setTitle("\u300a\u9b54\u6cd5\u7406\u8bba\u300b")
+setDescription("\u62ff\u7740\u4e16\u754c\u76d0\u53f3\u952e\u4e66\u67b6\uff0c\u6765\u83b7\u5f97\u9b54\u5bfc\u624b\u518c")
+addParent("EnigTech:Era_Magic/shijieyan")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:thaumonomicon>)
+setPos(-659,-47)

@@ -1,0 +1,3 @@
+recipes.addShaped("wooden_mortar",<advancedmortars:mortar>,[[<minecraft:stick>,<minecraft:flint>],[<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[<minecraft:end_crystal>, <bloodmagic:teleposition_focus:3>, <minecraft:end_crystal>],[<thaumcraft:plate:3>, <bloodmagic:monster_soul:1>, <thaumcraft:plate:3>], [<thaumcraft:plate:3>, <thaumcraft:plate:3>, <thaumcraft:plate:3>]]);
+recipes.addShaped(<mekanismgenerators:solarpanel> * 2, [[<botania:bifrostpermpane>, <botania:bifrostpermpane>, <botania:bifrostpermpane>],[<mekanism:compressedredstone>, <mekanism:enrichedalloy>, <mekanism:compressedredstone>], [<mekanism:ingot:1>, <mekanism:ingot:1>, <mekanism:ingot:1>]]);

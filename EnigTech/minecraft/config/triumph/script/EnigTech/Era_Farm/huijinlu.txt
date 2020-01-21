@@ -1,0 +1,8 @@
+setIcon(<embers:cinder_plinth>)
+setTitle("\u6211\u7684\u9632\u706b\u5973\u5462\uff1f")
+setDescription("\u5236\u4f5c\u7070\u70ec\u7089")
+addParent("EnigTech:Era_Farm/fuweijitan")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:cinder_plinth>)
+setPos(-152,-94)

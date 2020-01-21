@@ -1,0 +1,8 @@
+setIcon(<silentgems:essenceore>)
+setTitle("\u6df7\u6c8c\uff01\uff01\uff01")
+setDescription("\u83b7\u5f97\u6df7\u6c8c\u6e90\u8d28.")
+addParent("EnigTech:Era_Farm/root")
+setPos(-541,34)
+hideLines(false)
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<silentgems:craftingmaterial>)

@@ -1,0 +1,8 @@
+setIcon(<embers:alchemy_pedestal>)
+setTitle("\u9ad8\u7ea7\u5c55\u793a\u67b6")
+setDescription("\u83b7\u5f97\u70bc\u91d1\u672f\u57fa\u5ea7")
+addParent("EnigTech:Era_Farm/guangshupao")
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<embers:alchemy_pedestal>)
+setPos(-56,-45)

@@ -1,0 +1,8 @@
+setIcon(<botania:manaresource>)
+setTitle("\u8fd9\u4e2a\u94c1\u952d\u5145\u6ee1\u4e86\u9b54\u529b")
+setDescription("\u5236\u4f5c\u9b54\u529b\u94a2")
+addParent("EnigTech:Era_Farm/molichi")
+alwaysVisible()
+criteria = addCriteria("hasRockasd", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource>)
+setPos(-337,-83)
